@@ -21,6 +21,7 @@ dependencies = [
     "numpy",
     "matplotlib",
     "sympy",
+    "IPython"
 ]
 license-files = ["LICEN[CS]E*"]
 
