@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling","numpy","matplotlib","sympy"]
+requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 
@@ -16,6 +16,11 @@ requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "sympy",
 ]
 license-files = ["LICEN[CS]E*"]
 
