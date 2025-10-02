@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 name = "RM_Lib_Test"
 version = "0.0.1"
 authors = [
-    {name="Pieter Spaepen"}
+    {name="Pieter Spaepen"},
     {name="Miguel Lejeune", email="miguel.lejeune@kuleuven.be"},
 ]
 description = "Roloff Matek Python Lib"
