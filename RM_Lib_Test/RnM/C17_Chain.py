@@ -76,7 +76,65 @@ class Chain:
                     'F_res'     : '[N] Supoprt force for the shaft, while rotating, horizontal chain',\
                     
                     }
-
+    i         :MySymbol
+    n_1       :MySymbol
+    n_2       :MySymbol
+    z_2       :MySymbol
+    z_1       :MySymbol
+    d_2       :MySymbol
+    d_1       :MySymbol
+    T_1       :MySymbol
+    tau       :MySymbol
+    z         :MySymbol
+    d         :MySymbol
+    p         :MySymbol
+    d_v       :MySymbol
+    dprime_1  :MySymbol
+    d_a       :MySymbol
+    d_amax    :MySymbol
+    d_amin    :MySymbol
+    d_s       :MySymbol
+    g_1       :MySymbol
+    r_4       :MySymbol
+    F         :MySymbol
+    P_D       :MySymbol
+    P_1       :MySymbol
+    P_2       :MySymbol
+    eta       :MySymbol
+    K_A       :MySymbol
+    f_1       :MySymbol
+    f_2       :MySymbol
+    f_3       :MySymbol
+    f_4       :MySymbol
+    f_5       :MySymbol
+    f_6       :MySymbol
+    n         :MySymbol
+    L_h       :MySymbol
+    a         :MySymbol
+    a_0       :MySymbol
+    X_        :MySymbol
+    X         :MySymbol
+    L         :MySymbol
+    f         :MySymbol
+    f_rel     :MySymbol
+    l_T       :MySymbol
+    F_t       :MySymbol
+    v         :MySymbol
+    F_c       :MySymbol
+    q         :MySymbol
+    F_s       :MySymbol
+    F_G       :MySymbol
+    g         :MySymbol
+    F_sb      :MySymbol
+    F_so      :MySymbol
+    Fprime_s  :MySymbol
+    psi       :MySymbol
+    epsilon_0 :MySymbol
+    delta     :MySymbol
+    F_a       :MySymbol
+    F_Ab      :MySymbol
+    F_Ao      :MySymbol
+    F_res     :MySymbol
     # limit the possible attributes, avoiding typo's from students
     __slots__ = [str(k) for k in MySymbolDict.keys()]
 
