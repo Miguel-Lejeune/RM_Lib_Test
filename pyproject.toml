@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling, numpy, matplotlib, sympy]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "RM_Lib_Test"
+version = "0.0.1"
+authors = [
+    {name="Pieter Spaepen"}
+    {name="Miguel Lejeune", email="miguel.lejeune@kuleuven.be"},
+]
+description = "Roloff Matek Python Lib"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "Custom"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/Miguel-Lejeune/RM_Lib_Test"
